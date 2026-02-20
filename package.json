@@ -4,6 +4,6 @@
   "description": "Personal portfolio website",
   "private": true,
   "scripts": {
-    "start": "echo 'Serve index.html using an HTTP server'"
+    "start": "npx serve -s ."
   }
 }
