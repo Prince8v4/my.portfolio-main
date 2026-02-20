@@ -1,5 +1,9 @@
 // Backend API URL (Change this to your Render/Railway URL after deployment)
 const API_BASE_URL = 'https://my-portfolio-main-1-rnua.onrender.com';
+fetch(`${API_BASE_URL}/api/visit`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" }
+});
 
 // const WEBHOOK_URL = "https://hook.eu2.make.com/uy4n9dgrlaqakthzik9jvtpyui3riuof" // Deprecated
 
