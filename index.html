@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    Navigation
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Prince Kumar</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#internship" class="nav-link">Internships</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#feedback" class="nav-link">Feedback</a></li>
+                <li><a href="#enquiry" class="nav-link">Enquiry</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Prince Kumar</span>
+                </h1>
+                <p class="hero-subtitle">Frontend Developer & AI Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#enquiry" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="prince.jpg" alt="Prince Kumar" />
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm Prince Kumar</h3>
+                    <p>A passionate Frontend Developer and AI Enthusiast with expertise in building modern web
+                        applications and intelligent solutions. I specialize in creating seamless user experiences and
+                        leveraging cutting-edge technologies to solve complex problems.</p>
+                    <p>With a strong foundation in both frontend and backend development, I bring ideas to life through
+                        clean code, innovative design, and strategic thinking.</p>
+                    <div class="about-stats">
+
+
+
+                    </div>
+                    <a href="Prince Resume (7).pdf" download>
+                        <button id="downloadResume" class="btn btn-primary">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Resume
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <div class="rotating-circle">
+                            <img src="Screenshot 2025-10-02 113907.png" alt="Project 1" class="project-image" />
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>🏗️ Prince Infra Pvt. Ltd.</h3>
+                        <p>Prince Infra Pvt. Ltd. is a construction and renovation company dedicated to transforming
+                            spaces into dream homes. With a focus on quality craftsmanship and client satisfaction, we
+                            offer comprehensive services that cater to all your building needs.</p>
+                        <div class="project-tags">
+                            <span class="tag">javascript</span>
+                            <span class="tag">html</span>
+                            <span class="tag">css</span>
+
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://princeinfrapvtltd.netlify.app/" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                            <a href="https://princeinfrapvtltd.netlify.app/" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW INTERNSHIP SECTION -->
+    <section id="internship" class="section internship-section">
+        <div class="container">
+            <h2 class="section-title">Internships / Experience</h2>
+            <div class="internship-grid">
+
+                <!-- Internship 1 -->
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <h3>AI Agents Intern</h3>
+                        <span class="company-name">CSharp Inc.</span>
+                    </div>
+                    <div class="internship-meta">
+                        <span class="date">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Oct 2025 – Nov 2025
+                        </span>
+                    </div>
+                    <ul class="internship-desc">
+                        <li>Worked on hands-on AI Agent development under senior guidance</li>
+                        <li>Built, tested, and optimized AI workflows and automations</li>
+                        <li>Researched AI agent architectures, tools, and best practices</li>
+                        <li>Contributed to documentation, prototyping, and improvements</li>
+                        <li>Gained experience in a professional AI & automation environment</li>
+                    </ul>
+                    <a href="ai agent.jpeg" class="btn btn-secondary btn-sm" target="_blank">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        View Letter
+                    </a>
+                </div>
+
+                <!-- Internship 2 -->
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <h3>Project Manager Intern</h3>
+                        <span class="company-name">Thinkverse Labs Pvt Ltd</span>
+                    </div>
+                    <div class="internship-meta">
+                        <span class="date">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Dec 2025 – Jan 2026
+                        </span>
+                    </div>
+                    <div class="project-list-meta">
+                        <strong>Projects:</strong> Sharp Economy Website, Gamified Learning Platform, Conference Website
+                        Builder
+                    </div>
+                    <ul class="internship-desc">
+                        <li>Managed project planning, task allocation, and timelines</li>
+                        <li>Coordinated with development teams and stakeholders</li>
+                        <li>Tracked project progress and ensured smooth execution</li>
+                        <li>Maintained clear communication across teams</li>
+                        <li>Demonstrated leadership and organizational skills</li>
+                    </ul>
+                    <a href="project manager.jpeg" class="btn btn-secondary btn-sm" target="_blank">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        View Letter
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, high-performance web applications using modern frameworks and best
+                        practices. From concept to deployment, I create solutions that drive results.</p>
+                    <ul class="service-features">
+                        <li>Frontend Development</li>
+                        <li>Backend Development</li>
+                        <li>API Integration</li>
+                        <li>Database Design</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3>AI Prompting & Integration</h3>
+                    <p>Leveraging AI technologies to enhance applications with intelligent features. Expert in prompt
+                        engineering and integrating AI models for practical business solutions.</p>
+                    <ul class="service-features">
+                        <li>AI Model Integration</li>
+                        <li>Prompt Engineering</li>
+                        <li>Chatbot Development</li>
+                        <li>AI Automation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-wrapper">
+
+                <div class="skill-category">
+                    <h3>Technical Expertise</h3>
+                    <div class="skills-grid-badges">
+                        <!-- Core Skills -->
+
+
+
+                        <div class="skill-badge"><i class="skill-icon">🐍</i><span>basic Python</span></div>
+                        <div class="skill-badge"><i class="skill-icon">🍃</i><span>MongoDB</span></div>
+
+                        <!-- AI & New Skills -->
+                        <div class="skill-badge">
+                            <i class="skill-icon">🤖</i>
+                            <span>AI Agent Development</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i class="skill-icon">🧠</i>
+                            <span>Machine Learning Foundations</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i class="skill-icon">✨</i>
+                            <span>Prompt Engineering & AI Integration</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i class="skill-icon">🗣️</i>
+                            <span>Natural Language Processing</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i class="skill-icon">🔌</i>
+                            <span>API Development & Integration</span>
+                        </div>
+                        <div class="skill-badge"><i class="skill-icon">⚛️</i><span>React.js</span></div>
+
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skills-grid-badges">
+                        <div class="skill-badge">
+                            <i class="skill-icon">📅</i>
+                            <span>Project Planning & Execution</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i class="skill-icon">🤝</i>
+                            <span>Agile Collaboration</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i class="skill-icon">💬</i>
+                            <span>Team Communication</span>
+                        </div>
+                        <div class="skill-badge">
+                            <i class="skill-icon">🧩</i>
+                            <span>Problem-Solving & Critical Thinking</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="feedback" class="section feedback-section">
+        <div class="container">
+            <h2 class="section-title">Send Feedback</h2>
+            <div class="form-container">
+                <form id="feedbackForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="feedback-name">Name</label>
+                        <input type="text" id="feedback-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-email">Email</label>
+                        <input type="email" id="feedback-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-message">Message</label>
+                        <textarea id="feedback-message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">Send Feedback</span>
+                        <span class="btn-loader" style="display: none;">
+                            <svg class="spinner" width="20" height="20" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"
+                                    opacity="0.25"></circle>
+                                <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" stroke-width="4" fill="none"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="enquiry" class="section enquiry-section">
+        <div class="container">
+            <h2 class="section-title">Project Enquiry</h2>
+            <div class="form-container">
+                <form id="enquiryForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="enquiry-name">Name</label>
+                            <input type="text" id="enquiry-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="enquiry-email">Email</label>
+                            <input type="email" id="enquiry-email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="enquiry-project">Project Type</label>
+                        <select id="enquiry-project" name="projectType" required>
+                            <option value="">Select a project type</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="ai-integration">AI Integration</option>
+                            <option value="full-stack">Full Stack Application</option>
+                            <option value="consulting">Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="enquiry-budget">Budget Range</label>
+                        <select id="enquiry-budget" name="budget" required>
+                            <option value="">Select budget range</option>
+                            <option value="under-5k">Under $5,000</option>
+                            <option value="5k-10k">$5,000 - $10,000</option>
+                            <option value="10k-25k">$10,000 - $25,000</option>
+                            <option value="25k-plus">$25,000+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="enquiry-details">Project Details</label>
+                        <textarea id="enquiry-details" name="details" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">Submit Enquiry</span>
+                        <span class="btn-loader" style="display: none;">
+                            <svg class="spinner" width="20" height="20" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"
+                                    opacity="0.25"></circle>
+                                <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" stroke-width="4" fill="none"
+                                    stroke-linecap="round"></path>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Prince Kumar</h3>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Prince8v4" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prince-kumar-330124341/" target="_blank"
+                            rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/princeGupta934" target="_blank" rel="noopener noreferrer"
+                            aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:kumarguptaprince93@gmail.com" aria-label="Email">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prince Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
