@@ -1,5 +1,8 @@
 // Backend API URL (Change this to your Render/Railway URL after deployment)
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'http://localhost:5000'
+  https://prince8v4.github.io/my.portfolio-main/
+  ;
+
 // const WEBHOOK_URL = "https://hook.eu2.make.com/uy4n9dgrlaqakthzik9jvtpyui3riuof" // Deprecated
 
 // Smooth scrolling for navigation links
