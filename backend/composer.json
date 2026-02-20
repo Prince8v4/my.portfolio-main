@@ -1,0 +1,11 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.16",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "mongodb/mongodb": true
+        }
+    }
+}
