@@ -1,7 +1,5 @@
-// Backend API URL (Update this to your PHP server URL after deployment)
-const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? 'http://localhost/backend'
-  : 'https://my-portfolio-main-6cbj.onrender.com'; // Keep existing for production or update to new PHP host
+// Backend API URL (Change this to your Render/Railway URL after deployment)
+const API_BASE_URL = 'https://my-portfolio-main-6cbj.onrender.com';
 
 // const WEBHOOK_URL = "https://hook.eu2.make.com/uy4n9dgrlaqakthzik9jvtpyui3riuof" // Deprecated
 
