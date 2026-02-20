@@ -1,5 +1,5 @@
 // Backend API URL (Change this to your Render/Railway URL after deployment)
-const API_BASE_URL = 'http://localhost:5000'
+const API_BASE_URL = 'https://my-portfolio-main-6cbj.onrender.com'
   https://prince8v4.github.io/my.portfolio-main/
   ;
 
