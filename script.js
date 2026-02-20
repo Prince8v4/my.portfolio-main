@@ -1,5 +1,5 @@
 // Backend API URL (Change this to your Render/Railway URL after deployment)
-const API_BASE_URL = 'https://blogcraftai-hv4m.onrender.com';
+const API_BASE_URL = 'https://my-portfolio-main-1-rnua.onrender.com';
 
 // const WEBHOOK_URL = "https://hook.eu2.make.com/uy4n9dgrlaqakthzik9jvtpyui3riuof" // Deprecated
 
